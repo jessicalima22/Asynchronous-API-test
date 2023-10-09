@@ -40,6 +40,7 @@ getCountryData('portugal');
 getCountryData('usa');
 */
 
+/*
 const renderCountry = function (data, className = '') {
   const html = `
     <article class="country ${className}">
@@ -95,3 +96,9 @@ const getCountryAndNeighbour = function (country) {
 };
 
 getCountryAndNeighbour('brasil');
+*/
+
+//Promise
+
+const request = fetch(`https://restcountries.com/v2/name/portugal`);
+console.log(request);
